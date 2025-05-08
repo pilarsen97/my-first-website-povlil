@@ -1,0 +1,21 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container--wide {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=06b9be&c2=1c576b&gt=l&gd=dtl
+*/
+    background: #06B9BE;
+    background: linear-gradient(135deg, #06B9BE, #1C576B);
+    height: 100vh;
+}
