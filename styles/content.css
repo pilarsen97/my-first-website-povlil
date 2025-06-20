@@ -1,0 +1,42 @@
+.content {
+    background: #fff;
+    padding: 40px;
+    color: #474747;
+    border-radius: 16px;
+    margin-top: -50px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+* + h2 {
+    margin-top: 40px;
+}
+
+p + p {
+    margin-top: 10px;
+}
+
+.half-block {
+    display: flex;
+    gap: 40px;
+}
+
+.half-block__left {
+    width: 50%;
+}
+
+.half-block__video {
+    width: 100%;
+    aspect-ratio: 16/10;
+}
+
+.half-block__right {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 500;
+    align-self: center;
+}

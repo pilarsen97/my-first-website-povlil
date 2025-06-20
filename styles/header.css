@@ -7,6 +7,7 @@
     -webkit-backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 15px 30px;
+    color: #fff;
 }
 
 .header__top {
@@ -24,4 +25,42 @@
 .header-nav__list {
     display: flex;
     gap: 30px;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header-nav__link {
+    color: #fff;
+    display: block;
+    transition: all 0.3s;
+}
+
+.header-nav__link:hover {
+    transform: scale(1.1);
+}
+
+.header__phone {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__phone:hover {
+    color: orange;
+}
+
+.header__phone i {
+    transition: all 0.3s;
+}
+
+.header__phone:hover i {
+    font-size: 26px;
 }

@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arsen`s website</title>
+    <!-- Подключаем файлы стилей -->
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/card.css">
 
+    <!-- Подключаем иконочный шрифт -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Подключаем шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -28,30 +39,169 @@
             </div>
 
             <div class="header__top-right">
-                right
+                <a href="tel:+79093929129" class="header__phone">
+                    <i class='bx bx-phone'></i>
+                    +7 (909) 392-91-29
+                </a>
             </div>
         </div>
 
         <nav class="header__bottom">
             <ul class="header-nav__list">
                 <li>
-                    <a href="#">Главная</a>
+                    <a href="#" class="header-nav__link">Главная</a>
                 </li>
                 <li>
-                    <a href="#">Модули</a>
+                    <a href="#" class="header-nav__link">Модули</a>
                 </li>
                 <li>
-                    <a href="#">Об авторе</a>
+                    <a href="#" class="header-nav__link">Об авторе</a>
                 </li>
                 <li>
-                    <a href="#">Контакты</a>
+                    <a href="#" class="header-nav__link">Контакты</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <div class="hero container--wide">
-        
+        <!-- HERO - первый экран -->
+        <h1>Привет, я Арсен!</h1>
+    </div>
+
+    <div class="content container">
+        <h2>Что такое KIBERone?</h2>
+        <p>
+            <strong>KIBERone — международная кибершкола будущего для детей и подростков от 6 до 14 лет.</strong>
+        </p>
+
+        <p>Школа предлагает обучение в разных сферах IT, включая программирование, создание приложений и сайтов, блокчейн, VR- и AR-технологии, создание 3D-игр, кибербезопасность, фото- и видеомонтаж и многое другое.</p>
+
+        <p>KIBERone признан ЮНЕСКО лучшим проектом в мире в сфере цифровых технологий для детей.</p>
+
+        <h2>Программирование для детей в Волгограде</h2>
+        <div class="half-block">
+            <div class="half-block__left">
+                <iframe class="half-block__video" src="https://rutube.ru/play/embed/51cc48ecfd31b633f466a4b91aefb4b1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            </div>
+            <div class="half-block__right">
+                <p>KIBERone – место, где дети и подростки получают навыки для успешного будущего и узнают всё о высоких технологиях</p>
+            </div>
+        </div>
+
+        <h2>Модули KIBERone</h2>
+        <!-- БЛОК КАРТОЧЕК начало -->
+        <div class="cards-block">
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/webmaster.webp" alt="">
+                </div>
+                <div class="card__title">
+                    WEB-мастер
+                </div>
+                <div class="card__description">
+                    Создаем наш первый сайт на HTML + CSS
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/blender.webp" alt="">
+                </div>
+                <div class="card__title">
+                    Blender
+                </div>
+                <div class="card__description">
+                    Профессиональная программа для 3D моделирования.
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/godot.webp" alt="">
+                </div>
+                <div class="card__title">
+                    Godot
+                </div>
+                <div class="card__description">
+                    Open-Sorce движок для создания игр. Популярен среди инди разработчиков
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/python.png" alt="">
+                </div>
+                <div class="card__title">
+                    Python
+                </div>
+                <div class="card__description">
+                    Язык программирования с которого стоит начать обучение
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/webmaster.webp" alt="">
+                </div>
+                <div class="card__title">
+                    WEB-мастер
+                </div>
+                <div class="card__description">
+                    Создаем наш первый сайт на HTML + CSS
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/webmaster.webp" alt="">
+                </div>
+                <div class="card__title">
+                    WEB-мастер
+                </div>
+                <div class="card__description">
+                    Создаем наш первый сайт на HTML + CSS
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+
+            <!-- КАРТОЧКА начало -->
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/webmaster.webp" alt="">
+                </div>
+                <div class="card__title">
+                    WEB-мастер
+                </div>
+                <div class="card__description">
+                    Создаем наш первый сайт на HTML + CSS
+                </div>
+                <a href="#" class="card__button">Подробнее</a>
+            </div>
+            <!-- КАРТОЧКА конец -->
+             
+
+        </div>
+        <!-- БЛОК КАРТОЧЕК конец -->
+
     </div>
 
 </body>
